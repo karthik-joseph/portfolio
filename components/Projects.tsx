@@ -210,7 +210,7 @@ const Projects = () => {
                           Key Features:
                         </p>
                         <ul className="space-y-2">
-                          {projects[0].features.map((feature, idx) => (
+                          {projects[0] && projects[0].features && projects[0].features.map((feature, idx) => (
                             <li
                               key={idx}
                               className="flex items-center gap-2 text-slate-600 dark:text-slate-400"
