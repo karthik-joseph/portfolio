@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
-import "./globals.css";
+import "./globals.css";  
 
 const inter = Inter({
   variable: "--font-inter",
@@ -18,7 +18,9 @@ export const metadata: Metadata = {
   description:
     "Building web and mobile applications with Django, React, and React Native, with hands-on experience in IoT and AI-powered systems.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 };
 
