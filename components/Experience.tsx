@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Experience = () => {
   const experiences = [
     {
-      year: "JULY 2025 - PRESENT",
+      year: "JUNE 2025 - JUNE 2025",
       company: "Ribos Technologies",
       position: "Full Stack Developer L1",
       description: "Building IoT automation systems with Django backend and React Native mobile apps.",
@@ -19,20 +19,7 @@ const Experience = () => {
       icon: "🚀",
     },
     {
-      year: "JUNE 2025 - JULY 2025",
-      company: "Steyp",
-      position: "Junior Full Stack Developer",
-      description: "Technical mentoring and conducting workshops for startup projects.",
-      highlights: [
-        "Technical mentoring",
-        "Student workshops",
-        "Startup projects",
-        "Code reviews",
-      ],
-      icon: "📚",
-    },
-    {
-      year: "FEB 2025 - JULY 2025",
+      year: "NOV 2024 - JULY 2025",
       company: "Steyp",
       position: "Master Tutor/Technical Mentor",
       description: "Technical mentoring and conducting sessions for students working on steyp platform.",
